@@ -33,7 +33,7 @@ const watcher = () => {
 //Создаём таски, настраиавем команды
 const build = series(
     clear,
-    parallel(html, scss, js)
+    parallel(html, scss, js, img)
 ); 
 
 const dev = series(
